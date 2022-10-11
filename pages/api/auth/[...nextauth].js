@@ -21,5 +21,6 @@ export default NextAuth({
       async jwt({token}){
         return token
       }
-  }
+  },
+  secret: "VALIPS_SECRET",
 })
